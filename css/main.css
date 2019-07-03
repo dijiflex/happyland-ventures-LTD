@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+html{
+	scroll-behavior: smooth;
+}
+body {
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(../images/tractor.jpg) center/cover no-repeat fixed;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(../images/tractor.jpg) center/cover no-repeat fixed;
+}
+#header .row {
+  min-height: 100vh;
+
+}
+
+.title-underline{
+	width: 100px;
+	height: 5px;
+	margin-left: 40%;
+    background:rgb(255, 0, 21);
+   
+    }
+    
+#completedProjects .container .row .col img{
+ 
+    top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#completedProjects .container{
+    background-color: rgba(80, 78, 78, 0.1);
+}
+
+#quote{
+    min-height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tractor.jpg) center/cover no-repeat fixed;
+}
+.yellow{
+    color: yellow;
+}
+
+#completedProjects .container .row .col img{
+   
+}
+
+/* ################################ AMINATE CSS ######################## */
+#aboutcoltxt{
+    animation-duration: 5s;
+  animation-delay: 2s;
+  
+}
+
+#logo .row .col-2 img{
+    position:relative; top: -53%;  
+}
+nav{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+}
